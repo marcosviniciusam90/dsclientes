@@ -1,4 +1,21 @@
 > Trabalho final do Capítulo 1 - CRUD (Bootcamp Spring React)
 
-## Tive que usar Java 8 <br/>
-Utilizo o PC da empresa para estudos, para instalar Java 11 aqui precisa de permissão de superior para que então a equipe de suporte técnico faça instalação, dessa forma estou fazendo os projetos com Java 8 que já está instalado.
+**CRUD completo de web services REST para acessar um recurso de clientes** <br/>
+
+Coleção do Postman para testar requisições: [Link](https://github.com/marcosviniciusam90/dsclientes/blob/master/doc/DSClientes.postman_collection.json) <br/>
+
+# Subir backend
+
+- O banco de dados pode ser acessado pelo endereço **`localhost:8080/h2-console`**
+
+### Por linha de comando
+1. Navegue até o diretório raíz do projeto (diretório que contém o arquivo pom.xml).
+2. Execute o comando: 
+- No Windows `mvnw.cmd spring-boot:run`
+- No Linux `mvnw spring-boot:run`
+
+### Pela IDE
+1. Faça import do projeto (Maven) na IDE.
+2. Execute o método principal da classe **DsclientesApplication**.
+
+**A api ficará disponível no endereço `localhost:8080`**
