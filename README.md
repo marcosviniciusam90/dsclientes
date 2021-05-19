@@ -3,6 +3,7 @@
 **CRUD completo de web services REST para acessar um recurso de clientes** <br/>
 
 Coleção do Postman para testar requisições: [Link](https://github.com/marcosviniciusam90/dsclientes/blob/master/doc/DSClientes.postman_collection.json) <br/>
+Imagem docker API: https://hub.docker.com/r/marcosviniciusam90/dsclientes
 
 # Subir backend
 
