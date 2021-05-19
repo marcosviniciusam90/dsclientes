@@ -7,7 +7,13 @@ Imagem docker API: https://hub.docker.com/r/marcosviniciusam90/dsclientes
 
 # Subir backend
 
-- O banco de dados pode ser acessado pelo endereço **`localhost:8080/h2-console`**
+- O banco de dados pode ser acessado pelo endereço **`localhost:8080/h2-console`**<br/>
+Obs: no campo **JDBC URL** preencha com `jdbc:h2:mem:testdb`
+
+### Pelo Docker (precisa ter instalado na máquina)
+1. Abra a linha de comando e execute os comandos abaixo:
+2. `docker pull marcosviniciusam90/dsclientes:v1`
+3. `docker run -p 8080:8080 --name dsclientes marcosviniciusam90/dsclientes:v1`
 
 ### Por linha de comando
 1. Navegue até o diretório raíz do projeto (diretório que contém o arquivo pom.xml).
